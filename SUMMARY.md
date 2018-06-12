@@ -6,4 +6,5 @@
 
 * [Overview of Code Template](tutorial/overview-of-code-template.md)
 * [1. Screens as Containers](tutorial/screens.md)
+* [2. Welcome Screen](tutorial/2.-welcome-screen.md)
 
