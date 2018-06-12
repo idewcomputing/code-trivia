@@ -60,6 +60,7 @@ body {
    * [border](https://www.w3schools.com/cssref/pr_border.asp)
    * [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)
    * [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+   * [color](https://www.w3schools.com/cssref/pr_text_color.asp) - for text color
    * [font-family](https://www.w3schools.com/CSSref/css_websafe_fonts.asp)
    * [background-color with rgba\( \)](https://www.w3schools.com/cssref/func_rgba.asp) - if you want to modify the current color.
 2. **Save your Code for the next step!**
