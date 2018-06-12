@@ -1,7 +1,8 @@
 ---
 description: >-
-  Welcome to our tutorial for the code template for trivia games. Let's get
-  right to it.
+  Welcome to our tutorial for the code template for trivia games. In this
+  tutorial you will build the basic template piece by piece. Below is a brief
+  introduction and then we'll get right to building.
 ---
 
 # Overview of Code Template
