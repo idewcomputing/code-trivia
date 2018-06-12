@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Trivia Code Template Documentation](README.md)
 
 ## Tutorial
 
@@ -9,4 +9,6 @@
 ## Quick Start
 
 ## Code Mods
+
+## Trivia Design Recommendations
 
