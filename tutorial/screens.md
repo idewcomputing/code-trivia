@@ -54,7 +54,7 @@ body {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### Make Modifications
+### Make Modifications and Save
 
 1. Add at least two more styles to the `.screen` selector. Below are some useful CSS styles to try.
    * [border](https://www.w3schools.com/cssref/pr_border.asp)
@@ -62,6 +62,7 @@ body {
    * [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
    * [font-family](https://www.w3schools.com/CSSref/css_websafe_fonts.asp)
    * [background-color with rgba\( \)](https://www.w3schools.com/cssref/func_rgba.asp) - if you want to modify the current color.
+2. **Save your Code for the next step!**
 
 
 
