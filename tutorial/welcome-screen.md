@@ -7,7 +7,6 @@ body {
   margin: 0;
 }
 
-
 h1, h4 {
   text-align: center;
 }
@@ -60,7 +59,6 @@ button:empty {
 ```markup
 <!-------------- WELCOME SCREEN --------------->
 <div class='screen' id='welcome-screen'>
-
   <h1>Welcome to our example game!</h1>
   <h4>You have
     <span id='totalQuestions'>-</span> questions waiting for you.</h4>
@@ -104,7 +102,6 @@ button:empty {
 ```javascript
 //Runs once at the beginning
 function setup() {
-
   var googleSheetLink = "1B3RFU17Y3gE7hcsarU81TM7FPudDTmt0OJz2vws4uw4";
   trivia.loadGoogleSheet(googleSheetLink).then(displayWelcome); 
 }
