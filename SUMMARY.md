@@ -5,5 +5,5 @@
 ## Tutorial
 
 * [Overview of Code Template](tutorial/overview-of-code-template.md)
-* [Screens](tutorial/screens.md)
+* [1. Screens as Containers](tutorial/screens.md)
 
