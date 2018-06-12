@@ -19,3 +19,5 @@ There are three screens in the core game structure. While it may seem simple, yo
 
 The code template is built with HTML/CSS/Javascript. The custom question database can be directly included as a Javascript object array or created in a connected Google Sheet. Creating the database in a Google Sheet is most convenient and much easier to edit.
 
+## Let's Get Building...
+
