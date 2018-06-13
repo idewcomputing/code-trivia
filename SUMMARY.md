@@ -11,4 +11,5 @@
 * [4. Thank You Screen](tutorial/4.-thank-you-screen.md)
 * [5. Core JS Functions](tutorial/5.-core-js-functions.md)
 * [6. Load Questions and Go](tutorial/6.-load-questions-and-go.md)
+* [7. Respond to Answer Clicks](tutorial/7.-respond-to-answer-clicks.md)
 
