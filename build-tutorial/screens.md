@@ -2,7 +2,9 @@
 
 ### HTML for the Screen Containers
 
-Below you see the HTML for the three screen "containers". We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. Copy the HTML code and paste it into a new ****[**CodePen's HTML**](https://codepen.io/pen/) \(or another code editor\). You will notice that the page preview is not too exciting, but should contain text from all three screens.
+Below you see the HTML for the three screen "containers". We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. You will notice that the page preview is not too exciting, but should contain text from all three screens.
+
+**Copy the HTML code and paste it into a new** [**CodePen's HTML**](https://codepen.io/pen/) **\(or another code editor inside the `<body>`\).**
 
 {% code-tabs %}
 {% code-tabs-item title="HTML" %}
