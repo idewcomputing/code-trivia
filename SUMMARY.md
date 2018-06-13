@@ -15,3 +15,9 @@
 * [8. Finishing the Game](tutorial/8.-finishing-the-game.md)
 * [9. Visual Enhancement](tutorial/9.-visual-enhancement.md)
 
+## Quick Start
+
+* [HTML](quick-start/html.md)
+* [CSS](quick-start/untitled.md)
+* [JavaScript](quick-start/javascript.md)
+
