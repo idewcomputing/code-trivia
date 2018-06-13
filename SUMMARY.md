@@ -13,4 +13,5 @@
 * [6. Load Questions and Go](tutorial/6.-load-questions-and-go.md)
 * [7. Respond to Answer Clicks](tutorial/7.-respond-to-answer-clicks.md)
 * [8. Finishing the Game](tutorial/8.-finishing-the-game.md)
+* [9. Visual Enhancement](tutorial/9.-visual-enhancement.md)
 
