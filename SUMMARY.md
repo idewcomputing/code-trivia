@@ -10,4 +10,5 @@
 * [3. Question Screen](tutorial/3.-question-screen.md)
 * [4. Thank You Screen](tutorial/4.-thank-you-screen.md)
 * [5. Core JS Functions](tutorial/5.-core-js-functions.md)
+* [6. Load Questions and Go](tutorial/6.-load-questions-and-go.md)
 
