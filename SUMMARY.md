@@ -9,4 +9,5 @@
 * [2. Welcome Screen](tutorial/2.-welcome-screen.md)
 * [3. Question Screen](tutorial/3.-question-screen.md)
 * [4. Thank You Screen](tutorial/4.-thank-you-screen.md)
+* [5. Core JS Functions](tutorial/5.-core-js-functions.md)
 
