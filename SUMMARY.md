@@ -12,4 +12,5 @@
 * [5. Core JS Functions](tutorial/5.-core-js-functions.md)
 * [6. Load Questions and Go](tutorial/6.-load-questions-and-go.md)
 * [7. Respond to Answer Clicks](tutorial/7.-respond-to-answer-clicks.md)
+* [8. Finishing the Game](tutorial/8.-finishing-the-game.md)
 
