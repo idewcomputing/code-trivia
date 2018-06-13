@@ -16,3 +16,5 @@ The code template is built with HTML/CSS/Javascript. The custom question databas
 
 ## Let's Get Building...
 
+This tutorial simply builds the code template step by step to help you understand how it works.
+
