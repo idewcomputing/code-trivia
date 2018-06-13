@@ -33,7 +33,7 @@ Let's add a little style to our screens next. Notice how the `body` , which cont
 
 Next you will see several styles being applied to screens, since `.screen` affects all elements with that class. Notice how `background-color` uses `rgba( )` so that we can "see through" the screen a bit to the background. You will want this feature later. The rest of the styling has to do with sizing the screens and content in a way that fits nicely on any device, and you will probably want to leave these elements alone.
 
-**Copy the CSS code into your CodePen's CSS and notice the change. You will need to scroll the preview down to see all the screens now.**
+**Copy the CSS code below into your CodePen's CSS and notice the change. You will need to scroll the preview down to see all the screens now.**
 
 {% code-tabs %}
 {% code-tabs-item title="CSS" %}
