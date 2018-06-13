@@ -8,4 +8,5 @@
 * [1. Screens as Containers](tutorial/screens.md)
 * [2. Welcome Screen](tutorial/2.-welcome-screen.md)
 * [3. Question Screen](tutorial/3.-question-screen.md)
+* [4. Thank You Screen](tutorial/4.-thank-you-screen.md)
 
