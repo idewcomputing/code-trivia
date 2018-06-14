@@ -2,9 +2,9 @@
 
 ### HTML for the Screen Containers
 
-Below you see the HTML for the three screen "containers". We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. You will notice that the browser page preview is not too exciting, but should contain text from all three screens.
+Below you see the HTML for the three screen "containers" as `<div>` elements. We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. 
 
-**Copy the HTML code and paste it into a new** [**CodePen's HTML**](https://codepen.io/pen/) **\(or another code editor inside the `<body>`\).**
+**Copy the HTML code and paste it into a new** [**CodePen's HTML**](https://codepen.io/pen/) **\(or another code editor inside the `<body>`\).** The browser page preview is not exciting, but it should contain text from all three screens.
 
 {% code-tabs %}
 {% code-tabs-item title="HTML" %}
@@ -41,7 +41,7 @@ Don't worry if this isn't totally clear yet. It will make more sense when we get
 
 ### CSS for the Body and Screens
 
-Let's add a little style to our screens next. Notice how the `body` , which contains all contents of the page, is given a background color of "gray" and a margin of "0". This gives us a nice edge-to-edge background for placing our screen content. 
+Let's add a little style to our screens next. In the code below notice how the `body` , which contains all contents of the page, is given a background color of "gray" and a margin of "0". This gives us a nice edge-to-edge background for placing our screen content. 
 
 Next you will see several styles being applied to screens, since `.screen` affects all elements with that class. Notice how `background-color` uses `rgba( )` so that we can "see through" the screen a bit to the background. You will want this feature later. The rest of the styling has to do with sizing the screens and content in a way that fits nicely on any device, and you will probably want to leave these elements alone.
 
