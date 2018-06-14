@@ -1,6 +1,6 @@
 # Quick Start
 
-Copy the HTML/CSS/JavaScript below to get started immediately. Note: The HTML is ready for CodePen, but if you are using another code editor, it will need to be placed within the &lt;body&gt; of a standard HTML page.
+Copy the HTML/CSS/JavaScript below to get started immediately. Note: The HTML is ready for CodePen, but if you are using another code editor, it will need to be placed within the &lt;body&gt; of a standard HTML page that properly loads the CSS and JS files.
 
 {% code-tabs %}
 {% code-tabs-item title="HTML" %}
