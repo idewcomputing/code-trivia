@@ -16,7 +16,7 @@ Copy the HTML/CSS/JavaScript below to get started immediately. Note: The HTML is
 <div class='screen' id='question-screen'>
   <h4 id="category">Category Name</h4>
   <h1 id="question">Question goes here?</h1>
-  <div class="answer-set">
+  <div id="answer-set">
     <button class="answer-btn" id="correctAnswer">Correct Answer</button>
     <button class="answer-btn" id="incorrectAnswer1">Wrong Answer</button>
     <button class="answer-btn" id="incorrectAnswer2">Wrong Answer</button>
