@@ -2,7 +2,7 @@
 
 ### HTML for the Screen Containers
 
-Below you see the HTML for the three screen "containers". We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. You will notice that the page preview is not too exciting, but should contain text from all three screens.
+Below you see the HTML for the three screen "containers". We will add more detail to each screen later. Notice that each screen has `class='screen'` . This will allow us to easily change the style \(CSS\) of all three screens later in the same way. Also, notice that each screen has a unique `id` that will allow us to target each screen in a particular way later. You will notice that the browser page preview is not too exciting, but should contain text from all three screens.
 
 **Copy the HTML code and paste it into a new** [**CodePen's HTML**](https://codepen.io/pen/) **\(or another code editor inside the `<body>`\).**
 
@@ -26,6 +26,18 @@ Below you see the HTML for the three screen "containers". We will add more detai
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+{% hint style="info" %}
+### **This is single page web app.** 
+
+You may ask, what is a single page web app? Most traditional web sites are a collection of HTML files \(pages\) that link to each other. With a single page web app you will create a single HTML file that contain different views \(we call them _screens_ in our case\) that you hide or show depending on the _state_ of the app. 
+
+For example, in the trivia game, you will _hide_ the question and thank you screens at the beginning and _show_ the welcome screen. When the visitor starts the game, you will _hide_ the welcome screen and _show_ the question screen, and so on.
+
+Don't worry if this isn't totally clear yet. It will make more sense when we get to the JavaScript programming part later.
+{% endhint %}
+
+
 
 ### CSS for the Body and Screens
 
