@@ -12,4 +12,6 @@
   * [8. Finishing the Game](build-tutorial/8.-finishing-the-game.md)
   * [9. Visual Enhancement](build-tutorial/9.-visual-enhancement.md)
 * [Quick Start](quick-start.md)
+* [Trivia Library Reference](trivia-library-reference.md)
+* [Code Mod Examples](untitled.md)
 
