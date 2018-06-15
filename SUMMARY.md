@@ -14,4 +14,5 @@
 * [Template Quick Start](quick-start.md)
 * [Code Mod Examples](untitled.md)
 * [Trivia JS Library Reference](trivia-library-reference.md)
+* [Managing the Question DB](managing-the-question-db.md)
 
