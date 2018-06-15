@@ -31,6 +31,18 @@ This is the current trivia question object which contains key/value  pairs defin
 * incorrectAnswer2
 * incorrectAnswer3
 
+### trivia.questionIndex
+
+### trivia.totalQuestions
+
+### trivia.totalCorrect
+
+### trivia.totalAnswered
+
+### trivia.state
+
+
+
 ## Raw Library JavaScript
 
 ```javascript
