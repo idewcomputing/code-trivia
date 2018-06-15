@@ -1,4 +1,4 @@
-# Trivia Library Reference
+# Trivia JS Library Reference
 
 ## Trivia Methods
 

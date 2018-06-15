@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Trivia Code Template Documentation](README.md)
-* [Build Tutorial](build-tutorial/README.md)
+* [Template Build Tutorial](build-tutorial/README.md)
   * [1. Screens as Containers](build-tutorial/screens.md)
   * [2. Welcome Screen](build-tutorial/2.-welcome-screen.md)
   * [3. Question Screen](build-tutorial/3.-question-screen.md)
@@ -11,7 +11,7 @@
   * [7. Respond to Answer Clicks](build-tutorial/7.-respond-to-answer-clicks.md)
   * [8. Finishing the Game](build-tutorial/8.-finishing-the-game.md)
   * [9. Visual Enhancement](build-tutorial/9.-visual-enhancement.md)
-* [Quick Start](quick-start.md)
-* [Trivia Library Reference](trivia-library-reference.md)
+* [Template Quick Start](quick-start.md)
 * [Code Mod Examples](untitled.md)
+* [Trivia JS Library Reference](trivia-library-reference.md)
 

@@ -1,4 +1,4 @@
-# Quick Start
+# Template Quick Start
 
 Copy the HTML/CSS/JavaScript below to get started immediately. 
 
