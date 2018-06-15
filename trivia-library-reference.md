@@ -22,7 +22,7 @@ This is an array of the trivia question objects.
 
 ### trivia.currentQuestion
 
-This is the current trivia question object which contain key/value  pairs defined by the question database. For example, `trivia.currentQuestion.category` will contain the category label for the current question if it is available. The standard question object keys are below, but can be extended as needed. 
+This is the current trivia question object which contains key/value  pairs defined by the question database. For example, `trivia.currentQuestion.category` will contain the category label for the current question if it is available. The standard question object keys are below, but can be extended as needed. 
 
 * category
 * question
