@@ -2,6 +2,18 @@
 
 ## Trivia Methods
 
+### trivia.loadGoogleSheet\(\)
+
+### trivia.advanceQuestion\(\)
+
+### trivia.gotoNextQuestion\(\)
+
+### trivia.insertQuestionInfo\(\)
+
+### trivia.shuffleAnswers\(\)
+
+### trivia.startClickListeners\(\)
+
 ## Trivia Objects and Attributes
 
 ### trivia.questions
