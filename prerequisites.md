@@ -13,7 +13,7 @@ _Familiarity_ with the following concepts are highly recommended before programm
 **CSS**
 
 * Selectors for elements, classes, and ids
-* Common styles: background-color, color, font-size, margin, padding, height, width, display, border, etc.
+* Common properties used in styles: background-color, color, font-size, margin, padding, height, width, display, border, etc.
 
 **JavaScript**
 
