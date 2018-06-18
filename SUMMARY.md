@@ -20,7 +20,9 @@
 
 ## Advanced
 
-* [Code Mod Examples](advanced/untitled.md)
+* [Code Mod Examples](advanced/untitled/README.md)
+  * [Animation: Spinning Block](advanced/untitled/animation-spinning-block.md)
+  * [Display: Question Count at Welcome](advanced/untitled/display-question-count-at-welcome.md)
 * [Trivia JS Library Reference](advanced/trivia-library-reference.md)
 * [P5.js](https://p5js.org/)
 
