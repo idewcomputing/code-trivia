@@ -31,10 +31,10 @@ _Familiarity_ with the following concepts are highly recommended before programm
 2. ​[CSS](https://docs.idew.org/principles-and-practices/principles/programming-principles/css)​
 3. ​[Classes and id's](https://docs.idew.org/principles-and-practices/principles/programming-principles/classes-and-ids-html-css-js)​
 4. ​[HTML Nesting](https://docs.idew.org/principles-and-practices/principles/programming-principles/html-nesting)​
-5. jQuery Basics
-6. JS Variables
-7. JS Functions
-8. JS Conditionals
+5. [jQuery Basics](https://docs.idew.org/principles-and-practices/principles/programming-principles/jquery)
+6. [JS Variables](https://docs.idew.org/principles-and-practices/principles/programming-principles/js-variables)
+7. [JS Functions](https://docs.idew.org/principles-and-practices/principles/programming-principles/js-functions)
+8. [JS Conditionals](https://docs.idew.org/principles-and-practices/principles/programming-principles/js-conditionals)
 
 ### Deeper Dive Options {#deeper-dive-options}
 
