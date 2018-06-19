@@ -1,4 +1,4 @@
-# Prerequisites
+# Prerequisite Knowledge
 
 ## Basic HTML/CSS/JS Programming Concepts {#basic-html-css-js-programming-concepts}
 
@@ -23,7 +23,11 @@ _Familiarity_ with the following concepts are highly recommended before programm
 * jQuery selectors for elements, classes, and ids
 * Basic jQuery functions: $.show\(\), $.hide\(\), $.html\(\)
 
-## Resources to Learn or Revisit Concepts {#resources-to-learn-or-revisit-concepts}
+## Options to Learn or Revisit Concepts {#resources-to-learn-or-revisit-concepts}
+
+### Intro to Informatics and Web Development \(Recommended\)
+
+The [**Intro to Informatics and Web Development**](https://docs.idew.org/intro-to-learning/) series of exercises covers HTML/CSS/JS and some informatics practices.
 
 ### A Quick Dive {#a-quick-dive}
 

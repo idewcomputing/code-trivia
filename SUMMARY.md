@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Trivia Code Template Documentation](README.md)
-* [Prerequisites](prerequisites.md)
+* [Prerequisite Knowledge](prerequisites.md)
 
 ## Code Template
 
