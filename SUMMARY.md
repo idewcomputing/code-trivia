@@ -15,7 +15,6 @@
   * [7. Respond to Answer Clicks](code-template/build-tutorial/7.-respond-to-answer-clicks.md)
   * [8. Finishing the Game](code-template/build-tutorial/8.-finishing-the-game.md)
   * [9. Visual Enhancement](code-template/build-tutorial/9.-visual-enhancement.md)
-* [Template Quick Start](code-template/quick-start.md)
 * [Managing the Question DB](code-template/managing-the-question-db.md)
 
 ## Advanced
