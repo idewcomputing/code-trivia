@@ -22,6 +22,7 @@
 * [Code Mod Examples](advanced/code-mods/README.md)
   * [Animation: Spinning Block](advanced/code-mods/animation-spinning-block.md)
   * [Display: Question Count at Welcome](advanced/code-mods/display-question-count-at-welcome.md)
+  * [Display: Custom Feedback Text](advanced/code-mods/display-custom-feedback-text.md)
 * [Trivia JS Library Reference](advanced/trivia-library-reference.md)
 * [P5.js](https://p5js.org/)
 
