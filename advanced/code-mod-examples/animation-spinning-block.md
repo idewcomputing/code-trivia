@@ -11,7 +11,7 @@ function spinningBlock() {
 }
 ```
 
-Now you simply need to call this function when you want it to display in the background. **In the example below, spinningBlock\(\) is called in the `draw()` function during the welcome screen on line 3.**
+Now you simply need to _call_ this function when you want it to display in the background. **In the example below, spinningBlock\(\) is called in the `draw()` function when trivia game state is "welcome" on line 3.**
 
 ```javascript
 //Loops continously for background effects and animations. (p5.js)
