@@ -1,4 +1,0 @@
-# Trivia Code Template Documentation
-
-
-
