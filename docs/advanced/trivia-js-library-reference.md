@@ -1,10 +1,12 @@
 # Trivia JS Library Reference
 
+{% hint style="info" %}
+The information on this page is in development and is provided for advanced use of the library.
+{% endhint %}
+
 ## Trivia Methods
 
-### trivia.loadGoogleSheet\(\)
-
-### trivia.advanceQuestion\(\)
+### trivia.loadGoogleSheet\(link\)
 
 ### trivia.gotoNextQuestion\(\)
 
