@@ -1,4 +1,4 @@
-# Sound: Add Sound Effects on Answer Clicks
+# Add Sound Effects on Answer Clicks
 
 Let's add some simple sound effects to your trivia game when a player answers a question. 
 
