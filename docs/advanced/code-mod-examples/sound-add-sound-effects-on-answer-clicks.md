@@ -2,7 +2,7 @@
 
 Let's add some simple sound effects to your trivia game when a player answers a question. 
 
-**1 - Find sound effects you would like to use or make your own.** But to get started you can download the two sounds below. Files of type _.mp3_ are a good choice for web apps.
+**1 - Find sound effects you would like to use or make your own.** Files of type _.mp3_ are a good choice for web apps. You can download the two sounds below as a starting point. 
 
 {% file src="../../.gitbook/assets/sound\_correct.mp3" caption="sound\_correct.mp3" %}
 
