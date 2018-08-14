@@ -14,9 +14,10 @@ Let's add some simple sound effects to your trivia game when a player answers a 
 * style.css
 * code.js
 * **sounds**
-  * correct.mp3
+  * sound\_correct.mp3
+  * sound\_incorrect.mp3
 
-**3 - Declare variables for your sounds at the very top of your** _**code.js**_ **file.** They should be above the `setup()` function. These lines create variables that will _represent_ your sound files so that you can play them at a later point in your code. Also, since we are placing them at the top of your code and not inside any function, they are called _global variables_. This means we can access these variables inside any other function, which we will need.
+**3 - Declare variables for your sounds at the very top of your** _**code.js**_ **file.** They should be above the `setup()` function. These lines create variables that will _represent_ your sound files so that you can play them at a later point in your code. Also, since we are placing them at the top of your code and not inside any function, they are called _global variables_. This means we can access these variables inside any other function, which we will do next.
 
 ```javascript
 var soundCorrect = new Audio("sounds/sound_correct.mp3");
@@ -31,8 +32,8 @@ var soundIncorrect = new Audio("sounds/sound_incorrect.mp3");
     soundCorrect.play();
   }
   else {
-      $("#feedback").html(`Better luck next time.`).show();
-      soundIncorrect.play();
+    $("#feedback").html(`Better luck next time.`).show();
+    soundIncorrect.play();
   }
 ```
 
