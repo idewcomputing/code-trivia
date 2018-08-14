@@ -8,13 +8,23 @@ The information on this page is in development and is provided for advanced use 
 
 ### trivia.loadGoogleSheet\(link\)
 
+Used to load a question bank from a Google Sheet.
+
 ### trivia.gotoNextQuestion\(\)
+
+Advances the trivia game to the next question.
 
 ### trivia.insertQuestionInfo\(\)
 
+This function puts the current question and answers taken from your database into the html to be displayed.
+
 ### trivia.shuffleAnswers\(\)
 
+This function shuffles the multiple choice answers so that the correct answer does not always show at the top.
+
 ### trivia.startClickListeners\(\)
+
+This function simply starts the event listeners for different types of player clicks.
 
 ## Trivia Objects and Attributes
 
@@ -35,15 +45,23 @@ This is the current trivia question object which contains key/value  pairs defin
 
 ### trivia.questionIndex
 
+This provides the current question's index in the questions array.
+
 ### trivia.totalQuestions
+
+The provides the total questions in the game.
 
 ### trivia.totalCorrect
 
+This provides how many correct answers the player has at the moment.
+
 ### trivia.totalAnswered
+
+This provides how many questions have been answered by the player at that moment.
 
 ### trivia.state
 
-
+This provides the state of the game. Possible states -- 'welcome', 'question', 'correct', 'incorrect', and 'thankyou'.
 
 ## Raw Library JavaScript
 
