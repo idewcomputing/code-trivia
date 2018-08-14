@@ -20,6 +20,7 @@
 ## Advanced
 
 * [Code Mod Examples](advanced/code-mod-examples/README.md)
+  * [Sound: Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
   * [Animation: Spinning Block](advanced/code-mod-examples/animation-spinning-block.md)
   * [Display: Question Count at Welcome](advanced/code-mod-examples/display-question-count-at-welcome.md)
   * [Display: Custom Feedback Text](advanced/code-mod-examples/display-custom-feedback-text.md)
