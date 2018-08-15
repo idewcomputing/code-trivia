@@ -16,5 +16,5 @@ The code template is built with HTML/CSS/Javascript. The custom question databas
 
 ## Let's Get Building...
 
-This tutorial simply builds the code template step by step to help you understand how it works.
+This tutorial simply builds the code template step by step to help you understand how it works. Go to _**1.**_ [_**Screens as Containers**_](1.-screens-as-containers.md).
 
