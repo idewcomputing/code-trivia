@@ -17,7 +17,7 @@
   * [9. Visual Enhancement](code-template/template-build-tutorial/9.-visual-enhancement.md)
 * [Managing the Question DB](code-template/managing-the-question-db.md)
 
-## Advanced
+## More
 
 * [Code Mod Examples](advanced/code-mod-examples/README.md)
   * [Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
