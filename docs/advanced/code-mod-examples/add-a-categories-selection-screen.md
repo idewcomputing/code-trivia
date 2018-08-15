@@ -2,7 +2,7 @@
 
 Let's add a screen for the player to choose a question category after they click start.
 
-**1 - Add the following HTML in your** _**index.html**_ **file just after your** _**welcome screen**_**.** This provides a place for the iDEW trivia to place buttons for your categories.
+**1 - Add the following HTML in your** _**index.html**_ **file just after your** _**welcome screen**_**.** This provides a place for the iDEW trivia library to place buttons for your categories.
 
 ```markup
 <!-------------- CATEGORY SCREEN --------------->
@@ -37,7 +37,7 @@ function onClickedStart() {
 }
 ```
 
-**5 - Lastly, add a new Javascript function to handle what to do when a category is selected.** In this case you will just move the player on to the question screen. The iDEW trivia library is keeping track of what category was selected. To keep things tidy, place this new function just before, but not inside, your `onClickedStart( )` function.
+**5 - Lastly, add a new Javascript function to handle what to do when a category is selected.** In this case you will just move the player on to the question screen. The iDEW trivia library is keeping track of what category was selected. To keep things tidy, place this new function just before \(but not inside\) your `onClickedStart( )` function.
 
 ```javascript
 function onClickedCategory() {
