@@ -20,12 +20,12 @@
 ## More
 
 * [Code Mod Examples](advanced/code-mod-examples/README.md)
-  * [Add a Categories Selection Screen](advanced/code-mod-examples/add-a-categories-selection-screen.md)
+  * [Style Changes with CSS](advanced/code-mod-examples/style-changes-with-css.md)
+  * [Add a Category Selection Screen](advanced/code-mod-examples/add-a-categories-selection-screen.md)
   * [Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
   * [Custom Feedback Text for Individual Questions](advanced/code-mod-examples/display-custom-feedback-text.md)
   * [Display the Total Question Count at Welcome](advanced/code-mod-examples/display-question-count-at-welcome.md)
   * [Add Background Animation \(Spinning Block Ex.\)](advanced/code-mod-examples/animation-spinning-block.md)
-  * [Style Changes with CSS](advanced/code-mod-examples/style-changes-with-css.md)
 * [Trivia JS Library Reference](advanced/trivia-js-library-reference.md)
 * [P5.js](https://p5js.org/)
 

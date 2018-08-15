@@ -1,6 +1,6 @@
 # Style Changes with CSS
 
-Below are some basic style changes you could use to update the look of the trivia app. With CSS, the possibilities are nearly endless. Just look at this [CSS reference at w3schools](https://www.w3schools.com/cssref/default.asp). It is easy to just try things out by trial and error. Most styles have several options to consider. This is quite effective -- do a Google search for "CSS" followed by a simple description of a style you are interested in, and you will likely find some answers.
+Below are some basic style changes you could use to update the look of the trivia app. With CSS, the possibilities are nearly endless. Just look at this [CSS reference at w3schools](https://www.w3schools.com/cssref/default.asp). It is easy to just try things out by trial and error. Most styles have several options to consider. So, as needed, do a Google search for "CSS" followed by a simple description of a style you are interested in, and you will likely find some answers.
 
 ### Backgrounds
 

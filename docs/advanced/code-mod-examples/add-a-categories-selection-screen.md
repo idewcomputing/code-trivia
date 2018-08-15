@@ -1,4 +1,4 @@
-# Add a Categories Selection Screen
+# Add a Category Selection Screen
 
 ![](../../.gitbook/assets/categoriesscreenshot.png)
 
