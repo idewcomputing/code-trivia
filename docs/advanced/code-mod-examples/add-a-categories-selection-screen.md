@@ -1,5 +1,7 @@
 # Add a Categories Selection Screen
 
+![](../../.gitbook/assets/categoriesscreenshot.png)
+
 Let's add a screen for the player to choose a question category after they click start.
 
 **1 - Add the following HTML in your** _**index.html**_ **file just after your** _**welcome screen**_**.** This provides a place for the iDEW trivia library to place buttons for your categories.

@@ -1,4 +1,6 @@
-# Add Background Animation \(Spinning Block Example\)
+# Add Background Animation \(Spinning Block Ex.\)
+
+![](../../.gitbook/assets/spinningblockscreenshot.png)
 
 The function below uses p5.js functions to create a spinning block that you can add to your app background. 
 

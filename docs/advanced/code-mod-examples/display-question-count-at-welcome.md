@@ -33,5 +33,5 @@ function displayWelcome() {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-That's it.
+That's it. Try it out.
 
