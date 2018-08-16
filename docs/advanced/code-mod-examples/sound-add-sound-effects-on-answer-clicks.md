@@ -39,3 +39,13 @@ var soundIncorrect = new Audio("sounds/sound_incorrect.mp3");
 
 That's it. Your game should now play your sound effects when a player answers a question.
 
+{% hint style="info" %}
+If you are using a longer sound file, like a song, you will want to know about the following two features.
+
+**pause\( \)** - This method will pause your sound. For example, `soundCorrect.pause( );`
+
+**currentTime** - This property can be used to reset the sound to the beginning. For example, `soundCorrect.currentTime = 0;`
+{% endhint %}
+
+\`\`
+

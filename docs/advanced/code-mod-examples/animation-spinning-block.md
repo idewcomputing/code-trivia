@@ -36,5 +36,9 @@ function draw() {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-This is a simple example of adding an animation to your background, but you can come up with your own animation and call it something different than `spinningBlock( )`. For example, you may choose to create an animation that looks like balloons rising up and call it `balloons( )`.  It may be challenging, but you can use functions from the [**p5.js**](https://p5js.org) \(as we did here\) to create some really interesting animations.
+{% hint style="info" %}
+This is a simple example of adding an animation to your background, but you can come up with your own animation and call it something different than `spinningBlock( )`.   
+  
+For example, you may choose to create an animation that looks like balloons rising up and call it `balloons( )`.  It may be challenging, but you can use functions from the [**p5.js**](https://p5js.org) \(as we did above for the spinning block\) to create some really interesting animations.
+{% endhint %}
 
