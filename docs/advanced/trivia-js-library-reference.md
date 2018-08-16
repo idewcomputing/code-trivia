@@ -192,7 +192,7 @@ The HTML is ready for CodePen, but if you are using another code editor, it will
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js'></script>
-<script src='https://codepen.io/jlyst/pen/mKmKoP.js'></script>
+<script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-trivia/src/trivia.js"></script> <!-- iDEW trivia -->
 ```
 {% endcode-tabs-item %}
 
