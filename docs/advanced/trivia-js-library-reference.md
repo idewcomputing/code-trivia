@@ -10,13 +10,25 @@ The information on this page is in development and is provided for advanced use 
 
 Used to load a question bank from a Google Sheet.
 
+### trivia.getCategories\(\)
+
+Returns all category names in an array.
+
+### trivia.getUnfinishedCategories\(\)
+
+Returns category names of the categories having unanswered questions. Returns as an array.
+
 ### trivia.gotoNextQuestion\(\)
 
 Advances the trivia game to the next question.
 
+### trivia.insertCategoryInfo\(\)
+
+This function places a button for each category into the HTML.
+
 ### trivia.insertQuestionInfo\(\)
 
-This function puts the current question and answers taken from your database into the html to be displayed.
+This function puts the current question and answers taken from your database into the HTML to be displayed.
 
 ### trivia.shuffleAnswers\(\)
 
