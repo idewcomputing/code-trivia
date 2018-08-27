@@ -61,3 +61,22 @@ function ballInBox() {
 }
 ```
 
+![balloons\( \)](../../.gitbook/assets/balloons.gif)
+
+```javascript
+//balloons rising to the top
+function balloons() {
+  background("gray");
+  var sFrame = floor(frameCount/100)*100;
+  for (var i=0; i<10; i++ ) {
+    randomSeed(1000*i + 2);
+    var y = int(random(height) - (frameCount - sFrame));
+    randomSeed(3000*i + 1);
+    var x = int(random(width));
+    fill(255,0,0);
+    line(x,y,x,y+30);
+    ellipse(x,y,10,15);
+  }
+}
+```
+
