@@ -1,4 +1,4 @@
-# Add Background Animation \(Spinning Block Ex.\)
+# Add Background Animation
 
 ### Spinning Block Example
 
