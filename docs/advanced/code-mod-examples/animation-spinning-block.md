@@ -54,10 +54,12 @@ For example, you may choose to create an animation that looks like balloons risi
 //Just a ball that bounces around on the screen
 function ballInBox() {
   background("gray");
-  //adjust x/y positions based on frameCount
+  //adjust ball x/y positions based on frameCount
   //and know when to "bounce"
-  var x = floor(frameCount/width)%2 == 1 ? frameCount%width : width - frameCount%width;
-  var y = floor(frameCount*1.3/height)%2 == 1 ? frameCount*1.3%height : height - frameCount*1.3%height;
+  var x = frameCount%width;
+  if (floor(frameCount/width)%2 == 0) x = width - x;
+  var y = frameCount*1.3%height;
+  if (floor(frameCount*1.3/height)%2 == 0) y = height - y;
   translate(x, y);
   ellipse(0, 0, 3, 3);
 }
