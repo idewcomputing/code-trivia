@@ -2,7 +2,7 @@
 
 ### Spinning Block Example
 
-![](../../.gitbook/assets/spinningblockscreenshot.png)
+![spinningBlock\( \)](../../.gitbook/assets/spin.gif)
 
 The function below uses p5.js functions to create a spinning block that you can add to your app background. 
 
@@ -47,6 +47,8 @@ For example, you may choose to create an animation that looks like balloons risi
 ### Other Example Animations
 
 **Here are more examples of custom animation functions that could be implemented like the `spinningBlock()` above.**
+
+![ballInBox\( \)](../../.gitbook/assets/bounce.gif)
 
 ```javascript
 //Just a ball that bounces around on the screen
