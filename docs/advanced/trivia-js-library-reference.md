@@ -163,16 +163,19 @@ var trivia = {
 
 Copy the HTML/CSS/JavaScript below to get started immediately. 
 
-{% hint style="warning" %}
-**CodePen Ready Code**
-
-The HTML is ready for CodePen, but if you are using another code editor, it will need to be placed within the &lt;body&gt; of a standard HTML page that properly loads the CSS and JS files.
-{% endhint %}
-
 {% code-tabs %}
-{% code-tabs-item title="HTML" %}
+{% code-tabs-item title="index.html" %}
 ```markup
-<!-------------- WELCOME SCREEN --------------->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-------------- WELCOME SCREEN --------------->
 <div class='screen' id='welcome-screen'>
     <h1>Welcome to our example game!</h1>
     <h4>You have questions waiting for you.</h4>
@@ -199,16 +202,20 @@ The HTML is ready for CodePen, but if you are using another code editor, it will
   <button class="start-btn">Restart</button>
 </div>
 
-<!-- JS Libraries -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js'></script>
-<script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-trivia/src/trivia.js"></script> <!-- iDEW trivia -->
+    <!-- JS Libraries -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-trivia/src/trivia.js"></script> <!-- iDEW trivia -->
+
+    <script src="code.js"></script>
+  </body>
+</html>
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="CSS" %}
+{% code-tabs-item title="style.css" %}
 ```css
 body {
   margin: 0;
@@ -256,7 +263,7 @@ canvas {
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title=undefined %}
+{% code-tabs-item title="code.js" %}
 ```javascript
 //Runs once at the beginning
 function setup() {
