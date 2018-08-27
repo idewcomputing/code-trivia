@@ -1,5 +1,7 @@
 # Add Background Animation \(Spinning Block Ex.\)
 
+### Spinning Block Example
+
 ![](../../.gitbook/assets/spinningblockscreenshot.png)
 
 The function below uses p5.js functions to create a spinning block that you can add to your app background. 
@@ -37,8 +39,23 @@ function draw() {
 {% endcode-tabs %}
 
 {% hint style="info" %}
-This is a simple example of adding an animation to your background, but you can come up with your own animation and call it something different than `spinningBlock( )`.   
+The _spinningBlock_ is a simple example of adding an animation to your background, but you can come up with your own animation and call it something different than `spinningBlock( )`.   
   
 For example, you may choose to create an animation that looks like balloons rising up and call it `balloons( )`.  It may be challenging, but you can use functions from the [**p5.js**](https://p5js.org) \(as we did above for the spinning block\) to create some really interesting animations.
 {% endhint %}
+
+### Other Example Animations
+
+**Here are more examples of custom animation functions that could be implemented like the `spinningBlock()` above.**
+
+```javascript
+//Just a ball that bounces around on the screen
+function ballInBox() {
+  background("gray");
+  var w = floor(frameCount/width)%2 == 1 ? frameCount%width : width - frameCount%width;
+  var h = floor(frameCount*1.3/height)%2 == 1 ? frameCount*1.3%height : height - frameCount*1.3%height;
+  translate(w, h);
+  ellipse(0, 0, 3, 3);
+}
+```
 
