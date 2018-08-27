@@ -21,7 +21,7 @@ function spinningBlock() {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-**2 - Now you simply need to** _**call**_ **this function when you want it to display in the background.** In the example below, `spinningBlock( )` is called in the `draw( )` function when the trivia game state is "welcome" on line 3. Determine where you will call the function.
+**2 - Now you simply need to** _**call**_ **this function when you want it to display in the background.** In the example below, `spinningBlock( )` is called in the `draw( )` function when the trivia game state is "welcome" on line 3. If you want, you can choose to call the function at a different point.
 
 {% code-tabs %}
 {% code-tabs-item title="JavaScript" %}
