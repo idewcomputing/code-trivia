@@ -13,9 +13,9 @@ The function below uses p5.js functions to create a spinning block that you can 
 ```javascript
 function spinningBlock() { 
     background("gray"); 
-    translate(width / 2, height / 2); 
-    rotate(PI / 90 * frameCount); 
-    rect(-26, -26, 52, 52); 
+    translate(width / 2, height / 2); //move to the middle
+    rotate(PI / 90 * frameCount); //rotate more with each frame
+    rect(-26, -26, 52, 52); //place the rectangle
 }
 ```
 {% endcode-tabs-item %}
@@ -54,9 +54,11 @@ For example, you may choose to create an animation that looks like balloons risi
 //Just a ball that bounces around on the screen
 function ballInBox() {
   background("gray");
-  var w = floor(frameCount/width)%2 == 1 ? frameCount%width : width - frameCount%width;
-  var h = floor(frameCount*1.3/height)%2 == 1 ? frameCount*1.3%height : height - frameCount*1.3%height;
-  translate(w, h);
+  //adjust x/y positions based on frameCount
+  //and know when to "bounce"
+  var x = floor(frameCount/width)%2 == 1 ? frameCount%width : width - frameCount%width;
+  var y = floor(frameCount*1.3/height)%2 == 1 ? frameCount*1.3%height : height - frameCount*1.3%height;
+  translate(x, y);
   ellipse(0, 0, 3, 3);
 }
 ```
@@ -69,13 +71,13 @@ function balloons() {
   background("gray");
   var sFrame = floor(frameCount/100)*100;
   for (var i=0; i<10; i++ ) {
-    randomSeed(1000*i + 2);
+    randomSeed(1000*i + 2); //ensures a repeatable random #
     var y = int(random(height) - (frameCount - sFrame));
-    randomSeed(3000*i + 1);
+    randomSeed(3000*i + 1); //ensures another repeatable random #
     var x = int(random(width));
-    fill(255,0,0);
-    line(x,y,x,y+30);
-    ellipse(x,y,10,15);
+    fill("red");
+    line(x,y,x,y+30);//balloon string
+    ellipse(x,y,10,15);//balloon
   }
 }
 ```
