@@ -71,8 +71,8 @@ function ballInBox() {
 //balloons rising to the top
 function balloons() {
   background("gray");
-  var sFrame = floor(frameCount/100)*100;
-  for (var i=0; i<10; i++ ) {
+  var sFrame = floor(frameCount/100)*100; //starting frame for looping
+  for (var i=0; i<10; i++ ) { //let's do 10 balloons
     randomSeed(1000*i + 2); //ensures a repeatable random #
     var y = int(random(height) - (frameCount - sFrame));
     randomSeed(3000*i + 1); //ensures another repeatable random #
