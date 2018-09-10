@@ -71,15 +71,15 @@ function ballInBox() {
 //balloons rising to the top
 function balloons() {
   background("gray");
-  var sFrame = floor(frameCount/100)*100; //starting frame for looping
-  for (var i=0; i<10; i++ ) { //let's do 10 balloons
-    randomSeed(1000*i + 2); //ensures a repeatable random #
-    var y = int(random(height) - (frameCount - sFrame));
-    randomSeed(3000*i + 1); //ensures another repeatable random #
+  var sFrame = floor(frameCount / (4*height))*4*height; //starting frame for looping
+  for (var i = 0; i < 30; i++) { //let's do 30 balloons
+    randomSeed(10510 * i + 2); //ensures a repeatable random #
+    var y = int(random(height*4) - (frameCount - sFrame)/2);
+    randomSeed(30260 * i + 1); //ensures another repeatable random #
     var x = int(random(width));
     fill("red");
-    line(x,y,x,y+30);//balloon string
-    ellipse(x,y,10,15);//balloon
+    line(x, y, x, y + 30);//balloon string
+    ellipse(x, y, 10, 15);//balloon
   }
 }
 ```
