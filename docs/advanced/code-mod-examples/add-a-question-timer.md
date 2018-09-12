@@ -1,6 +1,6 @@
 # Add a Question Timer
 
-![](../../.gitbook/assets/countdown.gif)
+![](../../.gitbook/assets/countdown%20%281%29.gif)
 
 This is an example of adding a timer to the question screen that counts down to zero.
 
