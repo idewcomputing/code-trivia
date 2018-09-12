@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Trivia Code Reference - Front Page](README.md)
+* [About](README.md)
 * [Prerequisite Knowledge](prerequisite-knowledge.md)
 
 ## Code Template
