@@ -20,5 +20,5 @@ Next, add the following line of code as a replacement. Notice how an HTML button
 $("#feedback").append(`<br><button onclick="trivia.gotoNextQuestion();">Next Question</br>`);
 ```
 
-That's it. It should work for you. Consider styling this button differently by assigning it a class in the HTML and adding the new style in your CSS.
+That's it. It should work for you. Consider styling this button differently by assigning it a class and adding the new style in your CSS.
 
