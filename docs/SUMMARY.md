@@ -22,6 +22,7 @@
 * [Code Mod Examples](advanced/code-mod-examples/README.md)
   * [Style Changes with CSS](advanced/code-mod-examples/style-changes-with-css.md)
   * [Support True/False Questions](advanced/code-mod-examples/support-true-false-questions.md)
+  * [Add "Next Question" Button](advanced/code-mod-examples/add-next-question-button.md)
   * [Add a Category Selection Screen](advanced/code-mod-examples/add-a-categories-selection-screen.md)
   * [Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
   * [Add a Question Timer](advanced/code-mod-examples/add-a-question-timer.md)

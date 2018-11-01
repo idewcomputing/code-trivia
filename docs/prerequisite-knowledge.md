@@ -1,10 +1,10 @@
 # Prerequisite Knowledge
 
-## Basic HTML/CSS/JS Programming Concepts {#basic-html-css-js-programming-concepts}
+## Basic HTML/CSS/JS Programming Concepts <a id="basic-html-css-js-programming-concepts"></a>
 
 _Familiarity_ with the following concepts are highly recommended before programming the trivia game. But _mastery_ is NOT required.
 
-#### HTML {#html}
+#### HTML <a id="html"></a>
 
 * Common HTML Elements and the basic tag syntax `<div>`, `<h1>`, `<h2>` \(etc.\), `<button>`, `<span>`
 * Nesting elements
@@ -23,13 +23,13 @@ _Familiarity_ with the following concepts are highly recommended before programm
 * jQuery selectors for elements, classes, and ids
 * Basic jQuery functions: $.show\(\), $.hide\(\), $.html\(\)
 
-## Options to Learn or Revisit Concepts {#resources-to-learn-or-revisit-concepts}
+## Options to Learn or Revisit Concepts <a id="resources-to-learn-or-revisit-concepts"></a>
 
 ### Intro to Informatics and Web Development \(Recommended\)
 
 The [**Intro to Informatics and Web Development**](https://docs.idew.org/intro-to-learning/) series of exercises covers HTML/CSS/JS and some informatics practices.
 
-### A Quick Dive {#a-quick-dive}
+### A Quick Dive <a id="a-quick-dive"></a>
 
 1. ​[HTML](https://docs.idew.org/principles-and-practices/principles/programming-principles/html)​
 2. ​[CSS](https://docs.idew.org/principles-and-practices/principles/programming-principles/css)​
@@ -40,7 +40,7 @@ The [**Intro to Informatics and Web Development**](https://docs.idew.org/intro-t
 7. [JS Functions](https://docs.idew.org/principles-and-practices/principles/programming-principles/js-functions)
 8. [JS Conditionals](https://docs.idew.org/principles-and-practices/principles/programming-principles/js-conditionals)
 
-### Deeper Dive Options {#deeper-dive-options}
+### Deeper Dive Options <a id="deeper-dive-options"></a>
 
 * HTML - [W3Schools](https://www.w3schools.com/html/default.asp), [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css), [Codecademy](https://www.codecademy.com/learn/learn-html)​
 * CSS - [W3Schools](https://www.w3schools.com/css/default.asp), [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css), [Codecademy](https://www.codecademy.com/learn/learn-css)​
