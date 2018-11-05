@@ -19,17 +19,18 @@ Add the code shown below to your `displayQuestion ( )` function inside the curly
 ```javascript
 var timeLimit = 10;
 var startTime = Date.now(); //get the time at the moment a user first sees the question
-var countDown = setInterval(function () {
+clearInterval(trivia.countDown);
+trivia.countDown = setInterval(function () {
   if (trivia.state == "question") { //ensure the user has not already answered
     var elapsedTime = (Date.now() - startTime)/1000; //calculate the time elapsed
     var clock = timeLimit - Math.floor(elapsedTime);//calculate the countdown w/o decimals
     $('#timer').html(clock);// place the clock time in the html for viewing
     if (clock == 0) { //if time is up
-      clearInterval(countDown); //stops our timer at 0. Don't want -1 ...
+      clearInterval(trivia.countDown); //stops our timer at 0. Don't want -1 ...
       trivia.triggerAnswer(false); //marks the answer as incorrect in trivia library
     }
   }
-  else clearTimeout(countDown);
+  else clearInterval(trivia.countDown);
 }, 100);//100 is the time interval in milliseconds
 ```
 
