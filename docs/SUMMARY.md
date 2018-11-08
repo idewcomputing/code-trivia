@@ -25,6 +25,7 @@
   * [Add "Next Question" Button](advanced/code-mod-examples/add-next-question-button.md)
   * [Add a Category Selection Screen](advanced/code-mod-examples/add-a-categories-selection-screen.md)
   * [Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
+  * [Add Basic Scoring](advanced/code-mod-examples/add-basic-scoring.md)
   * [Add a Question Timer](advanced/code-mod-examples/add-a-question-timer.md)
   * [Custom Feedback Text for Individual Questions](advanced/code-mod-examples/display-custom-feedback-text.md)
   * [Display the Total Question Count at Welcome](advanced/code-mod-examples/display-question-count-at-welcome.md)
