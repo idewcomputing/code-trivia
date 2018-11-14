@@ -28,6 +28,7 @@
   * [Add Basic Scoring](advanced/code-mod-examples/add-basic-scoring.md)
   * [Add a Question Timer](advanced/code-mod-examples/add-a-question-timer.md)
   * [Custom Feedback Text for Individual Questions](advanced/code-mod-examples/display-custom-feedback-text.md)
+  * [Use Images with Questions](advanced/code-mod-examples/use-images-with-questions.md)
   * [Display the Total Question Count at Welcome](advanced/code-mod-examples/display-question-count-at-welcome.md)
   * [Add Background Animation](advanced/code-mod-examples/animation-spinning-block.md)
 * [Trivia JS Library Reference](advanced/trivia-js-library-reference.md)
