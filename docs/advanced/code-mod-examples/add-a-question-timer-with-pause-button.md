@@ -1,6 +1,6 @@
 # Add a Question Timer with Pause Button
 
-
+![](../../.gitbook/assets/pausebutton.png)
 
 ### HTML
 
