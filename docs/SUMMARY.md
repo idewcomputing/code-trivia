@@ -27,6 +27,7 @@
   * [Add Sound Effects on Answer Clicks](advanced/code-mod-examples/sound-add-sound-effects-on-answer-clicks.md)
   * [Add Basic Scoring](advanced/code-mod-examples/add-basic-scoring.md)
   * [Add a Question Timer](advanced/code-mod-examples/add-a-question-timer.md)
+  * [Add a Question Timer with Pause Button](advanced/code-mod-examples/add-a-question-timer-with-pause-button.md)
   * [Custom Feedback Text for Individual Questions](advanced/code-mod-examples/display-custom-feedback-text.md)
   * [Use Images with Questions](advanced/code-mod-examples/use-images-with-questions.md)
   * [Display the Total Question Count at Welcome](advanced/code-mod-examples/display-question-count-at-welcome.md)
