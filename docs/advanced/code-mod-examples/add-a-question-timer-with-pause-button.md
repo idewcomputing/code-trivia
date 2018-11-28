@@ -21,6 +21,7 @@ Add the following HTML element insider your question screen section--possibly at
 Add the code shown below to your `displayQuestion ( )` function inside the curly braces `{ }` of the function's code block. The Javascript function called `setInterval` runs a block of code at a set interval. In this example, we run a block of code every 100 milliseconds that allows us to update the countdown timer accurately. If the timer reaches zero, it triggers an incorrect answer using `trivia.triggerAnswer(false)`. Notice that you can adjust the time limit by changing the `timeLimit` variable.
 
 ```javascript
+  $("#pause-game").html("Pause");
   var timeLimit = 10;
   var startTime = Date.now();
   var clock = 10;
