@@ -52,6 +52,7 @@ function togglePause() {
   trivia.isPaused = !trivia.isPaused; //changes pause state
   var btnTxt = trivia.isPaused ? "Resume" : "Pause";
   $("#pause-game").html(btnTxt);
+  $(".answer-btn").attr("disabled",trivia.isPaused);//disable answer buttons when paused.
 }
 ```
 
