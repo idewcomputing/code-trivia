@@ -106,6 +106,7 @@ var trivia = {
     });
   },
   triggerAnswer: function (correct) {
+    $(".answer-btn").attr("disabled", "disabled");
     if (correct) {
       trivia.currentQuestion.response = "correct";
       trivia.state = "correct";
