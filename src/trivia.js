@@ -10,21 +10,24 @@ var trivia = {
   state: "welcome",
   loadGoogleSheet: function (link) {
     return new Promise((resolve, reject) => {
-      Tabletop.init({
-        key: link,
-        callback: data => {
-          this.questions = data.Sheet1.elements;
-          this.questions = shuffle(this.questions);
-          if (this.questions.length) this.currentQuestion = this.questions[0];
-          this.questionIndex = 0;
-          this.totalQuestions = this.questions.length;
-          this.totalCorrect = 0;
-          this.totalAnswered = 0;
-          this.state = "welcome";
-          this.startClickListeners();
+      var self=this;
+      Papa.parse(link, {
+        download: true,
+        header: true,
+        complete: function (results) {
+          self.questions = results.data;
+          console.log("Questions loaded: ",self.questions);
+          self.questions = shuffle(self.questions);
+          if (self.questions.length) self.currentQuestion = self.questions[0];
+          self.questionIndex = 0;
+          self.totalQuestions = self.questions.length;
+          self.totalCorrect = 0;
+          self.totalAnswered = 0;
+          self.state = "welcome";
+          self.startClickListeners();
           resolve("success");
         }
-      });
+      })
     });
   },
   getCategories: function () {
