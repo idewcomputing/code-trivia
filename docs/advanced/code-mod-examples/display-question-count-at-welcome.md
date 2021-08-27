@@ -4,8 +4,7 @@ In this simple mod we will let the player know at the welcome screen how many qu
 
 **1 - Modify your** _**welcome screen**_ **HTML like on line 4 below, where the `id="question-count"` was added.**
 
-{% code-tabs %}
-{% code-tabs-item title="HTML" %}
+{% code title="HTML" %}
 ```markup
 <!-------------- WELCOME SCREEN --------------->
 <div class='screen' id='welcome-screen'>
@@ -14,15 +13,13 @@ In this simple mod we will let the player know at the welcome screen how many qu
     <button class="start-btn">Start</button>
 </div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Now we will insert the `trivia.totalQuestions` value into a sentence to be placed in the element with `id="question-count"`. 
 
 **2- Add the code on line 4 below to the end of your `displayWelcome()` function in your JavaScript.**
 
-{% code-tabs %}
-{% code-tabs-item title="JavaScript" %}
+{% code title="JavaScript" %}
 ```javascript
 function displayWelcome() {
   $(".screen").hide();
@@ -30,8 +27,7 @@ function displayWelcome() {
   $("#question-count").html(`You have ${trivia.totalQuestions} questions waiting for you.`);
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 That's it. Try it out.
 

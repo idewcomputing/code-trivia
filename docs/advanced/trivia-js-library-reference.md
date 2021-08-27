@@ -163,8 +163,8 @@ var trivia = {
 
 Copy the HTML/CSS/JavaScript below to get started immediately. 
 
-{% code-tabs %}
-{% code-tabs-item title="index.html" %}
+{% tabs %}
+{% tab title="index.html" %}
 ```markup
 <!DOCTYPE html>
 <html>
@@ -213,9 +213,9 @@ Copy the HTML/CSS/JavaScript below to get started immediately.
   </body>
 </html>
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="style.css" %}
+{% tab title="style.css" %}
 ```css
 body {
   margin: 0;
@@ -261,9 +261,9 @@ canvas {
   z-index: -1;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="code.js" %}
+{% tab title="code.js" %}
 ```javascript
 //Runs once at the beginning
 function setup() {
@@ -311,6 +311,6 @@ function onClickedStart() {
   displayQuestion();
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

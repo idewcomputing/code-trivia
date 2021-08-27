@@ -8,8 +8,7 @@ The function below uses p5.js functions to create a spinning block that you can 
 
 **1 - Add the following function to the bottom of your JavaScript.**
 
-{% code-tabs %}
-{% code-tabs-item title="JavaScript" %}
+{% code title="JavaScript" %}
 ```javascript
 function spinningBlock() { 
     background("gray"); 
@@ -18,13 +17,11 @@ function spinningBlock() {
     rect(-26, -26, 52, 52); //place the rectangle
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 **2 - Now you simply need to** _**call**_ **this function when you want it to display in the background.** In the example below, `spinningBlock( )` is called in the `draw( )` function when the trivia game state is "welcome" on line 3. If you want, you can choose to call the function at a different point.
 
-{% code-tabs %}
-{% code-tabs-item title="JavaScript" %}
+{% code title="JavaScript" %}
 ```javascript
 //Loops continously for background effects and animations. (p5.js)
 function draw() {
@@ -35,8 +32,7 @@ function draw() {
   else if (trivia.state == "thankyou") background("orange");
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 {% hint style="info" %}
 The _spinningBlock_ is a simple example of adding an animation to your background, but you can come up with your own animation and call it something different than `spinningBlock( )`.   

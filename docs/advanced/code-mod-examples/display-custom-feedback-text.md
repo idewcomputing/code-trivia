@@ -10,8 +10,7 @@ This is an example of how you can provide special feedback for each trivia quest
 
 **2 - Next, you want to use the trivia property  `trivia.currentQuestion.feedback` to place the text in the HTML element having** _**id**_**="feedback".** Notice how this is done in lines 2 and 3 below. Make the same changes within your `onClickedAnswer` function in your JavaScript.
 
-{% code-tabs %}
-{% code-tabs-item title="JavaScript" %}
+{% code title="JavaScript" %}
 ```javascript
 function onClickedAnswer(isCorrect) {
   if (isCorrect) $("#feedback").html(trivia.currentQuestion.feedback).show();
@@ -20,8 +19,7 @@ function onClickedAnswer(isCorrect) {
   setTimeout(trivia.gotoNextQuestion, 3000); //wait 3 secs...next question
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 That's it. Try it out.
 

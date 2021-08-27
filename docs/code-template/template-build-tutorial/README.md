@@ -1,5 +1,7 @@
 # Template Build Tutorial
 
+{% embed url="https://www.loom.com/share/26e7cc5ea99a4ca38ea174d26ebd9990" %}
+
 ## Core Game Structure
 
 There are three screens in the core game structure. While it may seem simple, you will find that there are many creative and engaging things you can do in your customized design.

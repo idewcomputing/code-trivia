@@ -17,7 +17,7 @@
   * [9. Visual Enhancement](code-template/template-build-tutorial/9.-visual-enhancement.md)
 * [Managing the Question DB](code-template/managing-the-question-db.md)
 
-## More
+## More <a id="advanced"></a>
 
 * [Code Mod Examples](advanced/code-mod-examples/README.md)
   * [Style Changes with CSS](advanced/code-mod-examples/style-changes-with-css.md)
