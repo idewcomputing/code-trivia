@@ -4,6 +4,8 @@ description: '⚠️ Important update to instructions posted August 30, 2021.'
 
 # Managing the Question DB
 
+{% embed url="https://www.loom.com/share/4dfef71dc75d47d39d7d1a846d9fcd2f" %}
+
 ## Using Google Sheet as Database \(Recommended\)
 
 1. Login to Google Drive.
