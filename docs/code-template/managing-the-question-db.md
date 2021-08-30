@@ -1,7 +1,5 @@
 # Managing the Question DB
 
-{% embed url="https://www.loom.com/share/585749188d1d4799891d55c5718df244" %}
-
 ## Using Google Sheet as Database \(Recommended\)
 
 1. Login to Google Drive.
