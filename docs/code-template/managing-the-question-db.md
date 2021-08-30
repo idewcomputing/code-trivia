@@ -1,3 +1,7 @@
+---
+description: '⚠️Important update to instructions posted August 30, 2021.'
+---
+
 # Managing the Question DB
 
 ## Using Google Sheet as Database \(Recommended\)
