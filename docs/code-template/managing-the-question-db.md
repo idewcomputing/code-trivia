@@ -1,5 +1,5 @@
 ---
-description: '⚠️Important update to instructions posted August 30, 2021.'
+description: '⚠️ Important update to instructions posted August 30, 2021.'
 ---
 
 # Managing the Question DB
